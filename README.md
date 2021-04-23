@@ -3,7 +3,7 @@ A data analysis pipeline that accepts as input a single-cell synthetic dataset
 
 ## Introduction
 
-For this unsupervised learning assignment fiveve single-cell synthetic datasets were provided. Each dataset provides the gene expression profiles (200 Genes) of 200 cells. The goal was to develop a data analysis pipeline that accepts as input a dataset and implements the following analysis stages in a pipeline:  
+For this unsupervised learning assignment five single-cell synthetic datasets were provided. Each dataset provides the gene expression profiles (200 Genes) of 200 cells. The goal was to develop a data analysis pipeline that accepts as input a dataset and implements the following analysis stages in a pipeline:  
 
 - Dimensionality reduction:
   - PCA
@@ -12,3 +12,16 @@ For this unsupervised learning assignment fiveve single-cell synthetic datasets 
 - Clustering (for each dimensionality reduction technique)
   - Gaussian Mixture Modeling with BIC (Bayesian information criterion)
 - Visualization of the results
+
+## Prerequisites - Notes
+
+- The code was developed on a Google Colab notebook(.ipynb). Feel free to open it
+using Jupyter as well
+
+- The following packages were used to apply dimensionality reduction:
+  - PCA: sklearn.decomposition.PCA
+  - TSNE: sklearn.manifold.TSNE
+  - UMAP: umap-learn
+- For clustering (Gaussian Mixture Modelling), sklearn.mixture.GaussianMixture was
+used
+- Place the datasets or ensure that they are in the same directory as the notebook le
