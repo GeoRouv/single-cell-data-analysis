@@ -25,3 +25,6 @@ using that or Jupyter Notebook as well
 - For clustering (Gaussian Mixture Modelling), sklearn.mixture.GaussianMixture was
 used
 - Place the datasets or ensure that they are in the same directory as the notebook file
+   
+     
+Read more details on the data analysis pipeline and the results in Project Report. 
