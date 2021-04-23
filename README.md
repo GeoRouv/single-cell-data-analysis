@@ -15,8 +15,8 @@ For this unsupervised learning assignment five single-cell synthetic datasets we
 
 ## Prerequisites - Notes
 
-- The code was developed on a Google Colab notebook(.ipynb). Feel free to open it
-using Jupyter as well
+- The code was developed on a Google Colab notebook(Pipeline.ipynb). Feel free to open it
+using that or Jupyter Notebook as well
 
 - The following packages were used to apply dimensionality reduction:
   - PCA: sklearn.decomposition.PCA
