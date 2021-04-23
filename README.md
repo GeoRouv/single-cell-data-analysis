@@ -24,4 +24,4 @@ using Jupyter as well
   - UMAP: umap-learn
 - For clustering (Gaussian Mixture Modelling), sklearn.mixture.GaussianMixture was
 used
-- Place the datasets or ensure that they are in the same directory as the notebook le
+- Place the datasets or ensure that they are in the same directory as the notebook file
